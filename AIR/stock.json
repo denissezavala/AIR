@@ -17,32 +17,12 @@
         "latestUpdate":1531339322512,
         "latestVolume":733021,
         "peRatio":null,
-        "weekHigh":31.24,
-        "weekLow":15.11,
         "ytdChange":0.5848778385251111
     },
     "trades":[
               {
-              "price":24.96,
-              "size":54,
-              "tradeId":633415490,
-              "isISO":true,
-              "isOddLot":true,
-              "isOutsideRegularHours":false,
-              "isSinglePriceCross":false,
-              "isTradeThroughExempt":false,
-              "timestamp":1531337655894
-              },
-              {
-              "price":24.975,
-              "size":80,
-              "tradeId":631161033,
-              "isISO":false,
-              "isOddLot":true,
-              "isOutsideRegularHours":false,
-              "isSinglePriceCross":false,
-              "isTradeThroughExempt":false,
-              "timestamp":1531337568011
+              "weekHigh":31.24,
+              "weekLow":15.11,
               }
               ]
 }
