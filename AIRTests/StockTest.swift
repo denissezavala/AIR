@@ -24,7 +24,6 @@ class StockTest: XCTestCase {
         // decode the raw data
         let pvtlStock = try? JSONDecoder().decode(Stock.self, from: stockData as Data)
         
-        
         guard let stock = pvtlStock else {
             XCTFail()
             return
