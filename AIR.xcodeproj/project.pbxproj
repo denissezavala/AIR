@@ -17,6 +17,7 @@
 		A60886FC20F6F09A0076AC65 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60886FA20F6F09A0076AC65 /* Stock.swift */; };
 		A60886FD20F6F09A0076AC65 /* stock.json in Resources */ = {isa = PBXBuildFile; fileRef = A60886FB20F6F09A0076AC65 /* stock.json */; };
 		A60886FF20F6F0A40076AC65 /* StockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60886FE20F6F0A40076AC65 /* StockTest.swift */; };
+		A608870020F6F1C00076AC65 /* stock.json in Resources */ = {isa = PBXBuildFile; fileRef = A60886FB20F6F09A0076AC65 /* stock.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A608870020F6F1C00076AC65 /* stock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,10 +19,8 @@
         "peRatio":null,
         "ytdChange":0.5848778385251111
     },
-    "trades":[
-              {
+    "trades":{
               "weekHigh":31.24,
               "weekLow":15.11,
               }
-              ]
 }

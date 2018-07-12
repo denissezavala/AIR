@@ -30,9 +30,10 @@ class StockTest: XCTestCase {
             return
         }
         
-        XCTAssertEqual(pvtlStock.currentPrice, 25.1)
-        XCTAssertEqual(pvtlStock.name, "PVTL")
-        XCTAssertEqual(pvtlStock.maxPrice, 31.24)
-        XCTAssertEqual(pvtlStock.market, "New York Stock Exchange")
+        XCTAssertEqual(stock.currentPrice, 25.1)
+        XCTAssertEqual(stock.name, "PVTL")
+        XCTAssertEqual(stock.maxPrice, 31.24)
+        XCTAssertEqual(stock.market, "New York Stock Exchange")
     }
 }
+
