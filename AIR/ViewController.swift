@@ -10,16 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var priceLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        Service().getStockData { stock in
+            DispatchQueue.main.async {
+                if let stock = stock {
+                    self.priceLabel.text = "$\(String(stock.currentPrice))"
+                } else {
+                    self.priceLabel.text = "error!"
+                }
+            }
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
